@@ -1,5 +1,5 @@
 # PyCHATBOT1
-![alt text](/PyCHATBOT1/static/images/image1.png)
+![alt text](/static/images/image1.png)
 
 ## O que ele responde?
 * Oi
@@ -30,4 +30,4 @@ Usado para obter a hora atual, que depois é exibida pelo chatbot.
 Esta biblioteca permite trabalhar com fusos horários corretamente, garantindo que a hora mostrada pelo chatbot seja a de brasília independente do fuso do servidor.
 
 ## Exemplo de funcionamento
-![alt text](/PyCHATBOT1/static/images/working%20image.png)
+![alt text](/static/images/working%20image.png)
