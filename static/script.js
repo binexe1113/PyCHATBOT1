@@ -15,7 +15,7 @@ async function sendMessage() {
   });
 
   const data = await response.json();
-  appendMessage("Bot", data.response);
+  appendMessage("Robo do horário", data.response);
 }
 
 function appendMessage(sender, text) {
@@ -31,4 +31,9 @@ userInput.addEventListener("keypress", function (event) {
     event.preventDefault();
     sendMessage();
   }
+});
+
+
+window.addEventListener("DOMContentLoaded", () => {
+  appendMessage("Robo do horário", "Olá! Eu Sou um robo que pode te dizer o horário oficial de brasilia!\nMe pergunte às horas ");
 });

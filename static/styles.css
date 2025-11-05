@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
   flex-direction: column; /* stack elements vertically */
   gap: 8px; /* small space between input and button */
   background-image: url(images/unnamed.jpg);
@@ -58,3 +59,5 @@ button {
 button:hover {
   background: #0056b3;
 }
+
+
