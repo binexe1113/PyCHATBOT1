@@ -23,7 +23,7 @@ def chatbot_response(user_message: str):
 
     # === RESPOSTAS BASEADAS EM REGRAS ===
     match True:
-        case _ if "oi" in user_message or "olá" in user_message:
+        case _ if "oi" in user_message or "olá"  in user_message or "ola" in user_message:
             return jsonify({"response": "Oi! Tudo bem? 😊"})
         case _ if "horário" in user_message:
             return jsonify({"response": "Atendemos de segunda a sexta, das 8h às 18h."})
